@@ -9,6 +9,9 @@ export default function Home() {
         <Link href="/meals">Meals</Link>
       </p>
       <p>
+        <Link href="/meals/share">Share Meal</Link>
+      </p>
+      <p>
         <Link href="/about">About Us</Link>
       </p>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
