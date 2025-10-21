@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import logoImg from "@/assets/logo.png";
 import classes from "@/components/main-header.module.css";
@@ -7,9 +8,10 @@ export default function MainHeader() {
   return (
     <header className={classes.header}>
       <Link className={classes.logo} href="/">
-        <img
-          src={logoImg.src}
+        <Image
+          src={logoImg}
           alt="A red orange food cloche, crossed fork and spoon, FOOD text below"
+          priority
         />
         Next Logo
       </Link>
