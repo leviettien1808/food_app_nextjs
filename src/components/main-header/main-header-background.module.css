@@ -5,4 +5,5 @@
   top: 0;
   left: 0;
   z-index: -1;
+  background: linear-gradient(90deg, #59453c, #8f3a09);
 }
