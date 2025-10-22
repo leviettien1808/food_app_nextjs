@@ -12,31 +12,33 @@ export default function Home() {
         </div>
         <div>
           <div className={classes.hero}>
-            <h1>NextLevel Food for NextLevel Foodies</h1>
-            <p>Taste & share food from all over the world.</p>
+            <h1>Thực phẩm dành cho những người yêu thích ẩm thực</h1>
+            <p>Nếm và chia sẻ ẩm thực từ khắp nơi trên thế giới.</p>
           </div>
           <div className={classes.cta}>
-            <Link href="/company">Join the Community</Link>
-            <Link href="/meals">Explore Meals</Link>
+            <Link href="/company">Tham gia cộng đồng</Link>
+            <Link href="/meals">Khám phá bữa ăn</Link>
           </div>
         </div>
       </header>
       <main>
         <section className={classes.section}>
-          <h2>What is Lorem Ipsum?</h2>
+          <h2>Đôi nét về Thiên đường ẩm thực</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived
-            not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged.
+            Không chỉ đơn thuần là món ăn, mà là một hành trình khám phá hương
+            vị, văn hóa và sự sáng tạo. Với họ, mỗi nguyên liệu đều mang một câu
+            chuyện, mỗi món ăn là một tác phẩm nghệ thuật. Từ những miếng phô
+            mai thủ công béo ngậy, thịt nguội ủ lâu năm đến các loại gia vị đặc
+            trưng vùng miền như nghệ saffron, tiêu Kampot hay dầu ô liu nguyên
+            chất, tất cả đều được lựa chọn kỹ lưỡng để tạo nên trải nghiệm ẩm
+            thực trọn vẹn.
           </p>
           <p>
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            Những người yêu ẩm thực thường tìm đến các món fusion độc đáo, thử
+            nghiệm kỹ thuật nấu mới như sous-vide hay lên men tự nhiên, và không
+            ngại đầu tư thời gian để chế biến món ăn đạt đến độ tinh tế cao
+            nhất. Với họ, bữa ăn không chỉ để no bụng, mà là dịp để thưởng thức,
+            kết nối và tôn vinh sự đa dạng của ẩm thực toàn cầu.
           </p>
         </section>
       </main>
