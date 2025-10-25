@@ -7,9 +7,8 @@ export default function MealsPage() {
     <>
       <header className={classes.header}>
         <h1>
-          Những bữa ăn ngon do
-          <span className={classes.highlight}>chính bạn</span>
-          tạo ra
+          Những bữa ăn ngon do{" "}
+          <span className={classes.highlight}>chính bạn</span> tạo ra
         </h1>
         <p>
           Chọn công thức yêu thích của bạn và tự nấu. Thật dễ dàng và thú vị!
